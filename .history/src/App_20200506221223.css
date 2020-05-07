@@ -32,4 +32,5 @@ body {
   font-family: "Open Sans", sans-serif !important;
   background-color: var(--mainGrey) !important;
   color: var(--mainBlack);
+  margin: 0 auto;
 }

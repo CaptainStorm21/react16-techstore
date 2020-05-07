@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Monda:400,700|Open+Sans:400,700|Raleway:400,700&display=swap');
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Monda', sans-serif; 
+*/
+/* #1A1110; */
+
+:root{
+  --primaryColor:  #0a74bb;
+  --primaryRGBA: rgba(0,0,0,0.3);
+  --mainGrey: #fafafa;
+  --darkGrey: #
+
+
+}
+
+body{
+  font-family: 'Open Sans', sans-serif  !important;
+}
