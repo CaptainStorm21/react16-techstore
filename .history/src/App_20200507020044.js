@@ -7,12 +7,7 @@ import styled from 'styled-components';
 import {FaHome} from 'react-icons/fa';
 
 //import pages
-import HomePage from './pages/HomePage';
-import ContactPage from './pages/ContactPage';
-import ProductsPage from './pages/ProductsPage';
-import AboutPage from './pages/AboutPage';
-import SingleProductPage from './pages/SingleProductPage';
-import DefaultPage from './pages/DefaultPage';
+import Home from '../pages/HomePage';
 
 function App() {
   return (

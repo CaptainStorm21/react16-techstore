@@ -12,7 +12,7 @@ import ContactPage from './pages/ContactPage';
 import ProductsPage from './pages/ProductsPage';
 import AboutPage from './pages/AboutPage';
 import SingleProductPage from './pages/SingleProductPage';
-import DefaultPage from './pages/DefaultPage';
+import DefaultPage from './pages'
 
 function App() {
   return (
