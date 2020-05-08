@@ -6,7 +6,7 @@ export default function HomePage() {
       <>
         <ProductConsumer>
                 {value => {
-                    console.log(value);
+                    console.log(value)
                     return <h3>Hello from home!</h3>
                 }}
         </ProductConsumer>
@@ -15,3 +15,4 @@ export default function HomePage() {
 }
 
 
+{/* { value => <h2>{value}</h2>} */}

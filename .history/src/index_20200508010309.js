@@ -15,7 +15,13 @@ ReactDOM.render(
         <Router>
       <App />
     </Router>
-  </ProductProvider>, document.getElementById("root")
+  </ProductProvider>
+  <React.StrictMode>
+    <Router>
+      <App />
+    </Router>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

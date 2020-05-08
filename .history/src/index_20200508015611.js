@@ -8,7 +8,7 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
 
 //Import context
-import { ProductProvider} from './context';
+import { ProductProvider} from '../context';
 
 ReactDOM.render(
   <ProductProvider>

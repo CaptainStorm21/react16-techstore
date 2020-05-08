@@ -11,11 +11,12 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { ProductProvider} from './context';
 
 ReactDOM.render(
-  <ProductProvider>
-        <Router>
+  <React.StrictMode>
+    <Router>
       <App />
     </Router>
-  </ProductProvider>, document.getElementById("root")
+  </React.StrictMode>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

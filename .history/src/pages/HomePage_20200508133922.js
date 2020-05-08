@@ -15,3 +15,4 @@ export default function HomePage() {
 }
 
 
+{/* { value => <h2>{value}</h2>} */
