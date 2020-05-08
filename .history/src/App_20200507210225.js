@@ -18,20 +18,11 @@ import CartPage from './pages/CartPage';
 //import routes
 import { Route, Switch } from 'react-router-dom';
 
-//import skeleton component
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Sidebar from './components/Sidebar';
-import Sidecart from './components/Sidecart';
+
 
 function App() {
   return (
     < >
-    <Navbar/>
-    <Sidebar/>
-    <Sidecart/>
-    <Footer/>
-
      {/* navbar, sidebar, cart, footer */}
      <Switch>
        <Route path = "/" exact component={HomePage} />

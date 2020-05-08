@@ -27,11 +27,6 @@ import Sidecart from './components/Sidecart';
 function App() {
   return (
     < >
-    <Navbar/>
-    <Sidebar/>
-    <Sidecart/>
-    <Footer/>
-
      {/* navbar, sidebar, cart, footer */}
      <Switch>
        <Route path = "/" exact component={HomePage} />

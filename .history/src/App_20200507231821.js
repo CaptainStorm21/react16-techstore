@@ -29,8 +29,7 @@ function App() {
     < >
     <Navbar/>
     <Sidebar/>
-    <Sidecart/>
-    <Footer/>
+    <Side
 
      {/* navbar, sidebar, cart, footer */}
      <Switch>

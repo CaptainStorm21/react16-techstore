@@ -22,16 +22,11 @@ import { Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
-import Sidecart from './components/Sidecart';
+import Sidecart from './components/Sidecart'
 
 function App() {
   return (
     < >
-    <Navbar/>
-    <Sidebar/>
-    <Sidecart/>
-    <Footer/>
-
      {/* navbar, sidebar, cart, footer */}
      <Switch>
        <Route path = "/" exact component={HomePage} />

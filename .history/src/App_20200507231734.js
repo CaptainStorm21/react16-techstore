@@ -28,9 +28,7 @@ function App() {
   return (
     < >
     <Navbar/>
-    <Sidebar/>
-    <Sidecart/>
-    <Footer/>
+    <Sidebar
 
      {/* navbar, sidebar, cart, footer */}
      <Switch>
