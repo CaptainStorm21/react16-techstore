@@ -24,11 +24,11 @@ function App() {
     < >
      {/* navbar, sidebar, cart, footer */}
      <Switch>
-       <Route path = "/" exact component={HomePage} />
+       <Route path = "/" component={HomePage} />
        <Route path = "/about" component={AboutPage} />
        <Route path = "/contact"  component={ContactPage} />
        <Route path = "/products"  exact  component={ProductsPage} />
-       <Route path = "/products/:id"   component={SingleProductPage} />
+       <Route path = "/product/:id"   component={SingleProductPage} />
        <Route path = "/cart" component={CartPage} />
        <Route  component={DefaultPage} />
      </Switch>
