@@ -50,10 +50,6 @@ const NavWrapper = styled.nav`
       background: var (--primaryColor);
       color: var(--mainWhite);
       font-size: 0.85rem;
-      position: absolute;
-      top: -8px;
-      right: -8px;
-      padding: 0 5px;
-      border-radius: 50%;
+      
   }
 `;

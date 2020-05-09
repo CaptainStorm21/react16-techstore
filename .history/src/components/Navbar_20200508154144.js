@@ -36,24 +36,6 @@ const NavWrapper = styled.nav`
   border-bottom: 3px solid var(--primaryColor);
   .nav-center {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-  }
-  .nav-icon{
-      font-size: 1.5rem;
-      cursor: pointer;
-  }
-  .nav-cart{
-      position: relative;
-  }
-  .cart-items{
-      background: var (--primaryColor);
-      color: var(--mainWhite);
-      font-size: 0.85rem;
-      position: absolute;
-      top: -8px;
-      right: -8px;
-      padding: 0 5px;
-      border-radius: 50%;
+      align-
   }
 `;

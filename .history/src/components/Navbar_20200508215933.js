@@ -53,7 +53,6 @@ const NavWrapper = styled.nav`
       position: absolute;
       top: -8px;
       right: -8px;
-      padding: 0 5px;
-      border-radius: 50%;
+      padding: 0 5x
   }
 `;

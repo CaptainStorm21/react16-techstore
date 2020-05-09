@@ -52,8 +52,6 @@ const NavWrapper = styled.nav`
       font-size: 0.85rem;
       position: absolute;
       top: -8px;
-      right: -8px;
-      padding: 0 5px;
-      border-radius: 50%;
+      
   }
 `;

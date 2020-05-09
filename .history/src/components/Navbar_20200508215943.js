@@ -54,6 +54,6 @@ const NavWrapper = styled.nav`
       top: -8px;
       right: -8px;
       padding: 0 5px;
-      border-radius: 50%;
+      
   }
 `;
